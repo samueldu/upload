@@ -1,5 +1,6 @@
 <?php
-		
+
+$teste = 0;
    $max_filesize = 2097152; // Maximum filesize in BYTES.
 	 $allowed_filetypes = array('.jpg','.jpeg','.gif','.png'); // These will be the types of file that will pass the validation.
 	 $filename = $_FILES['userfile']['name']; // Get the name of the file (including file extension).
